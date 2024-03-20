@@ -1,0 +1,16 @@
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*)$ index.php?url=$1 [QSA,L]
+
+# ----------------------------------------
+
+# RewriteEngine on: Esta línea activa el motor de reescritura de URL. Sin esta línea, las reglas de reescritura no tendrán efecto.
+
+# RewriteCond %{REQUEST_FILENAME} !-d: Esta condición le dice al servidor Apache que si la solicitud no corresponde a un directorio existente en el sistema de archivos, continúe con la siguiente regla.
+
+# RewriteCond %{REQUEST_FILENAME} !-f: Esta condición le dice al servidor Apache que si la solicitud no corresponde a un archivo existente en el sistema de archivos, continúe con la siguiente regla.
+
+# RewriteRule ^(.*)$ index.php?url=$1 [QSA,L]: Esta regla de reescritura toma la solicitud entrante y la redirige a index.php, pasando la URL solicitada como un parámetro GET llamado url. [QSA] significa "Appends the query string", lo que significa que si hay parámetros de consulta en la URL original, se conservarán y se agregarán al final de la URL reescrita. [L] indica que esta es la última regla a aplicar si se cumple, lo que significa que no se evaluarán más reglas después de esta si se satisface.
+
+# En resumen, estas reglas de reescritura de URL redirigen todas las solicitudes que no corresponden a un archivo o directorio existente en el sistema de archivos a index.php, pasando la URL solicitada como un parámetro GET llamado url. Esto es útil para aplicaciones web que utilizan enrutamiento basado en URL para dirigir solicitudes a controladores específicos.
