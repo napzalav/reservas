@@ -26,8 +26,26 @@ if ($isAdmin && (count($array) == 1
     $metodo = 'index';
 }
 
-echo 'Nombre controller: ' . $controller . '<br>';
-echo 'Nombre metodo: ' . $metodo;
+//VALIDAR METODOS
+$metodoIndice = ($isAdmin) ? 2 : 1 ;
+if (!empty($array[$metodoIndice]) && $array[$metodoIndice] != '') {
+    $metodo = $array[$metodoIndice];
+}
+
+//VALIDAR METODOS
+$parametro = '';
+$parametroIndice = ($isAdmin) ? 3 : 2 ;
+if (!empty($array[$metodoIndice]) && $array[$metodoIndice] != '') {
+    for ($i = $parametroIndice; $i < count($array); $i++) {
+        $parametro .= $array[$i] . ',';
+    }
+    $parametro = trim($parametro, ',');
+}
+
+
+
+
+
 
 
 
