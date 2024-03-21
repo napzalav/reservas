@@ -18,7 +18,7 @@ if ($isAdmin && (count($array) == 1
 || (count($array) == 2 && empty($array[1])))
 && $array[0] == ADMIN) {
     //CREAR CONTROLADOR
-    $controller = 'admin';
+    $controller = 'Admin';
     $metodo = 'login';
 } else {
     $indiceUrl = ($isAdmin) ? 1 : 0 ;
