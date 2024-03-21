@@ -1,11 +1,8 @@
 <?php
 require_once 'config/config.php';
 
-//CAPTURAR URL ACTUAL
-$currentPageUrl = $_SERVER['REQUEST_URI'];
-
 //VERIFICAR SI EXISTE LA RUTA ADMIN
-$isAdmin = strpos($currentPageUrl, '/' . ADMIN) !== false;
+$isAdmin = strpos($_SERVER['REQUEST_URI'], '/' . ADMIN) !== false;
 
 //COMPROBAR SI EXISTE GE PARA CREAR URL AMIGABLES
 $ruta = empty($_GET['url']) ? 'principal/index' : $_GET['url'];
