@@ -42,11 +42,19 @@ if (!empty($array[$metodoIndice]) && $array[$metodoIndice] != '') {
     $parametro = trim($parametro, ',');
 }
 
-
-
-
-
-
+//VALIDAR DIRECTORIO DE CONTROLADORES
+$dirController = ($isAdmin) ? 'controllers/admin/' . $controller . '.php' : 'controllers/principal/' . $controller . '.php';
+if (file_exists($dirController)) {
+    require_once $dirController;
+    $controller = new $controller;
+    if (method_exists($controller, $metodo)) {
+        $controller->$metodo($parametro);
+    } else {
+        echo 'METODO NO EXISTE';
+    }
+} else {
+    echo 'CONTROLADOR NO EXISTE';
+}
 
 
 
