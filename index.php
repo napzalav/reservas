@@ -4,7 +4,7 @@ require_once 'config/config.php';
 //VERIFICAR SI EXISTE LA RUTA ADMIN
 $isAdmin = strpos($_SERVER['REQUEST_URI'], '/' . ADMIN) !== false;
 
-//COMPROBAR SI EXISTE GE PARA CREAR URL AMIGABLES
+//COMPROBAR SI EXISTE GET PARA CREAR URL AMIGABLES
 $ruta = empty($_GET['url']) ? 'principal/index' : $_GET['url'];
 
 //CREAR UN ARRAY A PARTIR DE LA RUTA
@@ -38,6 +38,9 @@ if (!empty($array[$metodoIndice]) && $array[$metodoIndice] != '') {
     }
     $parametro = trim($parametro, ',');
 }
+
+//LLAMAR AUTOLOAD
+require_once 'config/app/Autoload.php';
 
 //VALIDAR DIRECTORIO DE CONTROLADORES
 $dirController = ($isAdmin) ? 'controllers/admin/' . $controller . '.php' : 'controllers/principal/' . $controller . '.php';
