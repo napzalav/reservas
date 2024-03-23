@@ -1,7 +1,7 @@
 <?php
-class PrincipalModel{
+class PrincipalModel extends Conexion{
     public function getPrueba(){
-        // echo 'Mensaje desde el modelo';
+        echo 'Mensaje desde el modelo';
     }
 }
 
