@@ -6,6 +6,7 @@ class Conexion{
         try {
             $this->conect = new PDO($pdo, USER, PASS);
             $this->conect->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+            echo 'CONECTADO';
         } catch (PDOException $e) {
             echo "Error en la conexion: " . $e->getMessage();
         }
