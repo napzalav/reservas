@@ -107,3 +107,46 @@ function validarCampos($campos)
     }
     return true;
 }
+
+//AGREGAR PRODUCTOS AL CARRITO(crea un array de sesiones para el modulo de ventas)
+function addToCart($carrito, $id, $nombre, $precio, $token, $cant = 1)
+{
+    if (!isset($_SESSION[$carrito])) {
+        $_SESSION[$carrito] = [];
+    }
+
+    $cart = $_SESSION[$carrito];
+
+    $product = [
+        'id' => $id,
+        'name' => $nombre,
+        'price' => $precio,
+        'token' => $token,
+        'quantity' => $cant
+    ];
+
+    // Verificar si el producto ya está en el carrito y actualizar la cantidad si es necesario
+    $found = false;
+    foreach ($cart as &$item) {
+        if ($item['id'] === $id && $item['token'] === $token) {
+            $item['quantity']++;
+            $found = true;
+            break;
+        }
+    }
+
+    // Si no se encontró el producto en el carrito, agrégalo
+    if (!$found) {
+        $cart[] = $product;
+    }
+
+    $_SESSION[$carrito] = $cart;
+
+    // Preparar una respuesta JSON
+    $response = [
+        'status' => 'success',
+        'message' => 'Producto agregado.'
+    ];
+
+    return $response;
+}
