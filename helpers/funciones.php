@@ -97,7 +97,13 @@ function fechaPerzo($fecha)
     return $dia . " de " . $mes[$me] . " de " . $anio;
 }
 
-
-
-
-?>
+//VALIDAR CAMPOS REQUERIDOS
+function validarCampos($campos)
+{
+    foreach ($campos as $campo) {
+        if (empty($_POST[$campo])) {
+            return false;
+        }
+    }
+    return true;
+}
