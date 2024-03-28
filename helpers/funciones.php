@@ -319,3 +319,10 @@ function get_nombre_dia($fecha)
             break;
     }
 }
+
+//BUSCAR VALOR EN UN ARRAY (para verificar si tiene permisos)
+function verificar($valor, $datos = [])
+{
+    $existe = array_search($valor, $datos, true);
+    return is_numeric($existe);
+}
