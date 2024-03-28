@@ -9,11 +9,6 @@ class Principal extends Controller{
         $data = $this->model->getPrueba();
         print_r($data);
         //$this->views->getView('principal', 'index', $data);
-        
-        
-        
-        // echo $data;
-        // echo 'Mensaje desde el controlador';
     }
 
 }
