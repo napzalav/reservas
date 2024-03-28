@@ -184,3 +184,17 @@ function removeFromCart($carrito, $id, $token)
 
     return $response;
 }
+
+//VACIAR PRODUCTOS DEL CARRITO
+function clearCart($carrito)
+{
+    unset($_SESSION[$carrito]); // Eliminar el carrito de la sesión
+
+    // Preparar una respuesta JSON
+    $response = [
+        'status' => 'success',
+        'message' => 'Carrito limpiado'
+    ];
+
+    return $response;
+}
