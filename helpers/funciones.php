@@ -151,7 +151,6 @@ function addToCart($carrito, $id, $nombre, $precio, $token, $cant = 1)
     return $response;
 }
 
-
 //ELIMINAR PRODUCTO DEL CARRITO
 function removeFromCart($carrito, $id, $token)
 {
@@ -216,4 +215,66 @@ function getTotalPrice($carrito)
     }
 
     return $totalPrice;
+}
+
+//CANTIDAD EDITABLE EN EL CARRITO
+function updateCantidad($carrito, $id, $cantidad, $token)
+{
+    if (!isset($_SESSION[$carrito])) {
+        // Manejar el caso en que el carrito no exista
+        $response = [
+            'status' => 'error',
+            'message' => 'El carrito no existe.'
+        ];
+        return $response;
+    }
+
+    $cart = $_SESSION[$carrito];
+
+    foreach ($cart as &$product) {
+        if ($product['id'] === $id && $product['token'] === $token) {
+            $product['quantity'] = $cantidad;
+            break;
+        }
+    }
+
+    $_SESSION[$carrito] = $cart;
+
+    $response = [
+        'status' => 'success',
+        'message' => 'Cantidad actualizada.'
+    ];
+
+    return $response;
+}
+
+//PRECIO EDITABLE EN EL CARRITO
+function updatePrice($carrito, $id, $new_price, $token)
+{
+    if (!isset($_SESSION[$carrito])) {
+        // Manejar el caso en que el carrito no exista
+        $response = [
+            'status' => 'error',
+            'message' => 'El carrito no existe.'
+        ];
+        return $response;
+    }
+
+    $cart = $_SESSION[$carrito];
+
+    foreach ($cart as &$product) {
+        if ($product['id'] === $id && $product['token'] === $token) {
+            $product['price'] = $new_price;
+            break;
+        }
+    }
+
+    $_SESSION[$carrito] = $cart;
+
+    $response = [
+        'status' => 'success',
+        'message' => 'Precio actualizado.'
+    ];
+
+    return $response;
 }
