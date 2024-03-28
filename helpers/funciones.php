@@ -278,3 +278,14 @@ function updatePrice($carrito, $id, $new_price, $token)
 
     return $response;
 }
+
+//GENERAR SERIE (el correlativo de la venta)
+function generate_numbers($start, $count, $digits)
+{
+    $result = array();
+    for ($n = $start; $n < $start + $count; $n++) {
+        $result[] = str_pad($n, $digits, "0", STR_PAD_LEFT);
+    }
+    return $result;
+}
+
