@@ -198,3 +198,22 @@ function clearCart($carrito)
 
     return $response;
 }
+
+//MOSTRAR EL TOTAL GENERAL (esta funcion calcula  el total (precio * cantidad))
+function getTotalPrice($carrito)
+{
+    if (!isset($_SESSION[$carrito])) {
+        return 0; // Devolver 0 si el carrito no existe en la sesión
+    }
+
+    $cart = $_SESSION[$carrito];
+    $totalPrice = 0;
+
+    if (!empty($cart)) {
+        foreach ($cart as $product) {
+            $totalPrice += $product['price'] * $product['quantity'];
+        }
+    }
+
+    return $totalPrice;
+}
