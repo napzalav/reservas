@@ -150,3 +150,37 @@ function addToCart($carrito, $id, $nombre, $precio, $token, $cant = 1)
 
     return $response;
 }
+
+
+//ELIMINAR PRODUCTO DEL CARRITO
+function removeFromCart($carrito, $id, $token)
+{
+    if (!isset($_SESSION[$carrito])) {
+        $_SESSION[$carrito] = [];
+    }
+
+    $cart = $_SESSION[$carrito];
+
+    // Buscar el índice del producto en el carrito
+    $productIndex = null;
+    foreach ($cart as $index => $product) {
+        if ($product['id'] === $id && $product['token'] === $token) {
+            $productIndex = $index;
+            break;
+        }
+    }
+
+    if ($productIndex !== null) {
+        // Eliminar el producto del carrito
+        unset($cart[$productIndex]);
+        $_SESSION[$carrito] = array_values($cart); // Reindexar el array
+    }
+
+    // Preparar una respuesta JSON
+    $response = [
+        'status' => 'success',
+        'message' => 'Producto eliminado.'
+    ];
+
+    return $response;
+}
