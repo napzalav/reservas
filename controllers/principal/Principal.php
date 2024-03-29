@@ -6,9 +6,9 @@ class Principal extends Controller{
         parent::__construct();
     }
     public function index() {
-        $data = $this->model->getPrueba();
-        print_r($data);
-        //$this->views->getView('principal', 'index', $data);
+    //     $data = get_nombre_dia(date('Y-m-d'));
+    //     print_r($data);
+        $this->views->getView('principal', 'index');
     }
 
 }

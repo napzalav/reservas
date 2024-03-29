@@ -59,7 +59,7 @@ function slugify($text, string $divider = '-')
     return $text;
 }
 
-//LIMITAR CADENA (limitamos la cantidad de caracteres que necesitamos mostrar)
+//LIMITAR CADENA (limitamos la cantidad de caracteres que necesitamos mostrar) necesita un string $cadena, la cantidad de caracteres $limite y un separador $sufijo
 function limitar_cadena($cadena, $limite, $sufijo)
 {
     // Si la longitud es mayor que el límite...
@@ -72,7 +72,7 @@ function limitar_cadena($cadena, $limite, $sufijo)
     return $cadena;
 }
 
-//PERSONALIZAR FECHA
+//PERSONALIZAR FECHA -> para tomar la fecha actual debemos pasar como parametro date('Y-m-d')
 function fechaPerzo($fecha)
 {
     $datos = explode('-', $fecha);
@@ -326,3 +326,5 @@ function verificar($valor, $datos = [])
     $existe = array_search($valor, $datos, true);
     return is_numeric($existe);
 }
+
+?>
