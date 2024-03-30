@@ -10,17 +10,6 @@ class Principal extends Controller{
     //     print_r($data);
         $this->views->getView('principal', 'index');
     }
-
 }
-
-
-
-
-
-
-
-
-
-
 
 ?>

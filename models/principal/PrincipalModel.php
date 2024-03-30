@@ -9,16 +9,4 @@ class PrincipalModel extends Query{
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
 ?>
