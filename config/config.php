@@ -8,6 +8,7 @@ define('USER', 'root');
 define('PASS', '');
 define('DATABASE', 'reservas');
 define('CHARSET', 'charset=utf8');
+define('TITLE', 'Hotel Regidor');
 
 
 ?>
