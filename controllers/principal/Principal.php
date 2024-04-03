@@ -7,9 +7,7 @@ class Principal extends Controller{
     }
     public function index() {
         $data['title'] = 'Página principal';
-    //     $data = get_nombre_dia(date('Y-m-d'));
-    //     print_r($data);
-        $this->views->getView('principal', 'index', $data);
+        $this->views->getView('index', $data);
     }
 }
 
