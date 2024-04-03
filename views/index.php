@@ -6,38 +6,38 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 		<!-- Bootstrap Min CSS -->
-		<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+		<link rel="stylesheet" href="<?php echo RUTA_PRINCIPAL . 'assets/principal'; ?>/css/bootstrap.min.css">
 		<!-- Owl Theme Default Min CSS -->
-		<link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+		<link rel="stylesheet" href="<?php echo RUTA_PRINCIPAL . 'assets/principal'; ?>/css/owl.theme.default.min.css">
 		<!-- Owl Carousel Min CSS -->
-		<link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+		<link rel="stylesheet" href="<?php echo RUTA_PRINCIPAL . 'assets/principal'; ?>/css/owl.carousel.min.css">
 		<!-- Boxicons Min CSS -->
-		<link rel="stylesheet" href="assets/css/boxicons.min.css">
+		<link rel="stylesheet" href="<?php echo RUTA_PRINCIPAL . 'assets/principal'; ?>/css/boxicons.min.css">
 		<!-- Flaticon CSS -->
-		<link rel="stylesheet" href="assets/css/flaticon.css">
+		<link rel="stylesheet" href="<?php echo RUTA_PRINCIPAL . 'assets/principal'; ?>/css/flaticon.css">
 		<!-- Meanmenu Min CSS -->
-		<link rel="stylesheet" href="assets/css/meanmenu.min.css">
+		<link rel="stylesheet" href="<?php echo RUTA_PRINCIPAL . 'assets/principal'; ?>/css/meanmenu.min.css">
 		<!-- Animate Min CSS -->
-		<link rel="stylesheet" href="assets/css/animate.min.css">
+		<link rel="stylesheet" href="<?php echo RUTA_PRINCIPAL . 'assets/principal'; ?>/css/animate.min.css">
 		<!-- Nice Select Min CSS -->
-		<link rel="stylesheet" href="assets/css/nice-select.min.css">
+		<link rel="stylesheet" href="<?php echo RUTA_PRINCIPAL . 'assets/principal'; ?>/css/nice-select.min.css">
 		<!-- Odometer Min CSS -->
-		<link rel="stylesheet" href="assets/css/odometer.min.css">
+		<link rel="stylesheet" href="<?php echo RUTA_PRINCIPAL . 'assets/principal'; ?>/css/odometer.min.css">
 		<!-- Date Picker CSS-->
-		<link rel="stylesheet" href="assets/css/date-picker.min.css">
+		<link rel="stylesheet" href="<?php echo RUTA_PRINCIPAL . 'assets/principal'; ?>/css/date-picker.min.css">
 		<!-- Magnific Popup Min CSS -->
-		<link rel="stylesheet" href="assets/css/magnific-popup.min.css">
+		<link rel="stylesheet" href="<?php echo RUTA_PRINCIPAL . 'assets/principal'; ?>/css/magnific-popup.min.css">
 		<!-- Beautiful Fonts CSS -->
-		<link rel="stylesheet" href="assets/css/beautiful-fonts.css">
+		<link rel="stylesheet" href="<?php echo RUTA_PRINCIPAL . 'assets/principal'; ?>/css/beautiful-fonts.css">
 		<!-- Style CSS -->
-		<link rel="stylesheet" href="assets/css/style.css">
+		<link rel="stylesheet" href="<?php echo RUTA_PRINCIPAL . 'assets/principal'; ?>/css/style.css">
 		<!-- Dark CSS -->
-		<link rel="stylesheet" href="assets/css/dark.css">
+		<link rel="stylesheet" href="<?php echo RUTA_PRINCIPAL . 'assets/principal'; ?>/css/dark.css">
 		<!-- Responsive CSS -->
-		<link rel="stylesheet" href="assets/css/responsive.css">
+		<link rel="stylesheet" href="<?php echo RUTA_PRINCIPAL . 'assets/principal'; ?>/css/responsive.css">
 
 		<!-- Favicon -->
-		<link rel="icon" type="image/png" href="assets/img/favicon.png">
+		<link rel="icon" type="image/png" href="<?php echo RUTA_PRINCIPAL . 'assets/principal'; ?>/img/favicon.png">
 
         <!-- TITLE -->
         <title>Ecorik - Hotel & Resort HTML Template</title>
@@ -59,7 +59,7 @@
 				<!-- Menu For Mobile Device -->
 				<div class="mobile-nav">
 					<a href="index.html" class="logo">
-						<img src="assets/img/mobile-manu-logo.png" alt="Logo">
+						<img src="<?php echo RUTA_PRINCIPAL . 'assets/principal'; ?>/img/mobile-manu-logo.png" alt="Logo">
 					</a>
 				</div>
 				<!-- Menu For Desktop Device -->
@@ -67,7 +67,7 @@
 					<nav class="navbar navbar-expand-md navbar-light">
 						<div class="container">
 							<a class="navbar-brand" href="index.html">
-								<img src="assets/img/home-one/logo.jpg" alt="Logo">
+								<img src="<?php echo RUTA_PRINCIPAL . 'assets/principal'; ?>/img/home-one/logo.jpg" alt="Logo">
 							</a>
 							<div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
 								<ul class="navbar-nav m-auto">
@@ -305,7 +305,7 @@
 							</button>
 							<h2 class="modal-title" id="myModalLabel2">
 								<a href="index.html">
-									<img src="assets/img/home-one/logo.jpg" alt="Logo">
+									<img src="<?php echo RUTA_PRINCIPAL . 'assets/principal'; ?>/img/home-one/logo.jpg" alt="Logo">
 								</a>
 							</h2>
 						</div>
@@ -447,7 +447,7 @@
 				</div>
 			</div>
 			<div class="white-shape">
-				<img src="assets/img/home-one/slider/white-shape.png" alt="Image">
+				<img src="<?php echo RUTA_PRINCIPAL . 'assets/principal'; ?>/img/home-one/slider/white-shape.png" alt="Image">
 			</div>
 			<div class="social-link">
 				<ul>
@@ -561,7 +561,7 @@
 				<div class="row align-items-center">
 					<div class="col-lg-6">
 						<div class="explore-img">
-							<img src="assets/img/explore-img.png" alt="Image">
+							<img src="<?php echo RUTA_PRINCIPAL . 'assets/principal'; ?>/img/explore-img.png" alt="Image">
 						</div>
 					</div>
 					<div class="col-lg-6">
@@ -658,8 +658,8 @@
 				</div>
 			</div>
 			<div class="white-shape">
-				<img src="assets/img/shape/white-shape-top.png" alt="Image">
-				<img src="assets/img/shape/white-shape-bottom.png" alt="Image">
+				<img src="<?php echo RUTA_PRINCIPAL . 'assets/principal'; ?>/img/shape/white-shape-top.png" alt="Image">
+				<img src="<?php echo RUTA_PRINCIPAL . 'assets/principal'; ?>/img/shape/white-shape-bottom.png" alt="Image">
 			</div>
 		</section>
 		<!-- End Incredible Area -->
@@ -676,35 +676,35 @@
 						<div class="col-lg-4">
 							<ul class="tabs">
 								<li class="single-rooms">
-									<img src="assets/img/rooms/button-img-1.jpg" alt="Image">
+									<img src="<?php echo RUTA_PRINCIPAL . 'assets/principal'; ?>/img/rooms/button-img-1.jpg" alt="Image">
 									<div class="room-content">
 										<h3>Double Room</h3>
 										<span>From $75.9/night</span>
 									</div>
 								</li>
 								<li class="single-rooms">
-									<img src="assets/img/rooms/button-img-2.jpg" alt="Image">
+									<img src="<?php echo RUTA_PRINCIPAL . 'assets/principal'; ?>/img/rooms/button-img-2.jpg" alt="Image">
 									<div class="room-content">
 										<h3>Luxury Room</h3>
 										<span>From $50.9/night</span>
 									</div>
 								</li>
 								<li class="single-rooms">
-									<img src="assets/img/rooms/button-img-3.jpg" alt="Image">
+									<img src="<?php echo RUTA_PRINCIPAL . 'assets/principal'; ?>/img/rooms/button-img-3.jpg" alt="Image">
 									<div class="room-content">
 										<h3>Best Room</h3>
 										<span>From $70.9/night</span>
 									</div>
 								</li>
 								<li class="single-rooms">
-									<img src="assets/img/rooms/button-img-4.jpg" alt="Image">
+									<img src="<?php echo RUTA_PRINCIPAL . 'assets/principal'; ?>/img/rooms/button-img-4.jpg" alt="Image">
 									<div class="room-content">
 										<h3>Classic Room</h3>
 										<span>From $95.9/night</span>
 									</div>
 								</li>
 								<li class="single-rooms">
-									<img src="assets/img/rooms/button-img-5.jpg" alt="Image">
+									<img src="<?php echo RUTA_PRINCIPAL . 'assets/principal'; ?>/img/rooms/button-img-5.jpg" alt="Image">
 									<div class="room-content">
 										<h3>Budget Room</h3>
 										<span>From $95.9/night</span>
@@ -1109,7 +1109,7 @@
 						<h3>Excellent Room</h3>
 						<p>“Awesome yksum dolor sit ametco elit, sed do eiusmod tempor incididunt et md do eiusmoeiusmod tempor inte emamnsecacing eiusmoeiusmod”</p>
 						<div class="testimonials-content">
-							<img src="assets/img/testimonials/2.jpg" alt="Image">
+							<img src="<?php echo RUTA_PRINCIPAL . 'assets/principal'; ?>/img/testimonials/2.jpg" alt="Image">
 							<h4>Ayman Jenis</h4>
 							<span>CEO@Leasuely</span>
 						</div>
@@ -1135,7 +1135,7 @@
 						<h3>Excellent hotel</h3>
 						<p>“Awesome yksum dolor sit ametco elit, sed do eiusmod tempor incididunt et md do eiusmoeiusmod tempor inte emamnsecacing eiusmoeiusmod”</p>
 						<div class="testimonials-content">
-							<img src="assets/img/testimonials/3.jpg" alt="Image">
+							<img src="<?php echo RUTA_PRINCIPAL . 'assets/principal'; ?>/img/testimonials/3.jpg" alt="Image">
 							<h4>Ayman Jenis</h4>
 							<span>CEO@Leasuely</span>
 						</div>
@@ -1161,7 +1161,7 @@
 						<h3>Excellent Swimming</h3>
 						<p>“Awesome yksum dolor sit ametco elit, sed do eiusmod tempor incididunt et md do eiusmoeiusmod tempor inte emamnsecacing eiusmoeiusmod”</p>
 						<div class="testimonials-content">
-							<img src="assets/img/testimonials/1.jpg" alt="Image">
+							<img src="<?php echo RUTA_PRINCIPAL . 'assets/principal'; ?>/img/testimonials/1.jpg" alt="Image">
 							<h4>Ayman Jenis</h4>
 							<span>CEO@Leasuely</span>
 						</div>
@@ -1183,7 +1183,7 @@
 						<div class="single-news">
 							<div class="news-img">
 								<a href="news-details.html">
-									<img src="assets/img/news/1.jpg" alt="Image">
+									<img src="<?php echo RUTA_PRINCIPAL . 'assets/principal'; ?>/img/news/1.jpg" alt="Image">
 								</a>
 								<div class="dates">
 									<span>HOTEL</span>
@@ -1219,7 +1219,7 @@
 						<div class="single-news">
 							<div class="news-img">
 								<a href="news-details.html">
-									<img src="assets/img/news/2.jpg" alt="Image">
+									<img src="<?php echo RUTA_PRINCIPAL . 'assets/principal'; ?>/img/news/2.jpg" alt="Image">
 								</a>
 								<div class="dates">
 									<span>PRICE</span>
@@ -1255,7 +1255,7 @@
 						<div class="single-news">
 							<div class="news-img">
 								<a href="news-details.html">
-									<img src="assets/img/news/1.jpg" alt="Image">
+									<img src="<?php echo RUTA_PRINCIPAL . 'assets/principal'; ?>/img/news/1.jpg" alt="Image">
 								</a>
 								<div class="dates">
 									<span>STORE</span>
@@ -1322,7 +1322,7 @@
 						<div class="col-lg-3 col-md-6">
 							<div class="single-widget">
 								<a href="index.html">
-									<img src="assets/img/home-one/footer-logo.png" alt="Image">
+									<img src="<?php echo RUTA_PRINCIPAL . 'assets/principal'; ?>/img/home-one/footer-logo.png" alt="Image">
 								</a>
 								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat molestiae corporis, magni maxime perferendis ducimus.</p>
 								<ul class="social-icon">
@@ -1484,7 +1484,7 @@
 				</div>
 			</div>
 			<div class="footer-shape">
-				<img src="assets/img/shape/white-shape-bottom.png" alt="Image">
+				<img src="<?php echo RUTA_PRINCIPAL . 'assets/principal'; ?>/img/shape/white-shape-bottom.png" alt="Image">
 			</div>
 		</footer>
 		<!-- End Footer Area -->
@@ -1498,38 +1498,38 @@
 
 
         <!-- Jquery Min JS -->
-        <script src="assets/js/jquery.min.js"></script>
+        <script src="<?php echo RUTA_PRINCIPAL . 'assets/principal'; ?>/js/jquery.min.js"></script>
         <!-- Bootstrap Bundle Min JS -->
-        <script src="assets/js/bootstrap.bundle.min.js"></script>
+        <script src="<?php echo RUTA_PRINCIPAL . 'assets/principal'; ?>/js/bootstrap.bundle.min.js"></script>
         <!-- Meanmenu Min JS -->
-		<script src="assets/js/meanmenu.min.js"></script>
+		<script src="<?php echo RUTA_PRINCIPAL . 'assets/principal'; ?>/js/meanmenu.min.js"></script>
 		<!-- Owl Carousel Min JS -->
-		<script src="assets/js/owl.carousel.min.js"></script>
+		<script src="<?php echo RUTA_PRINCIPAL . 'assets/principal'; ?>/js/owl.carousel.min.js"></script>
 		<!-- Wow Min JS -->
-        <script src="assets/js/wow.min.js"></script>
+        <script src="<?php echo RUTA_PRINCIPAL . 'assets/principal'; ?>/js/wow.min.js"></script>
         <!-- Nice Select Min JS -->
-		<script src="assets/js/nice-select.min.js"></script>
+		<script src="<?php echo RUTA_PRINCIPAL . 'assets/principal'; ?>/js/nice-select.min.js"></script>
         <!-- Magnific Popup Min JS -->
-		<script src="assets/js/magnific-popup.min.js"></script>
+		<script src="<?php echo RUTA_PRINCIPAL . 'assets/principal'; ?>/js/magnific-popup.min.js"></script>
 		<!-- Mixitup JS -->
-		<script src="assets/js/jquery.mixitup.min.js"></script>
+		<script src="<?php echo RUTA_PRINCIPAL . 'assets/principal'; ?>/js/jquery.mixitup.min.js"></script>
 		<!-- Appear Min JS -->
-		<script src="assets/js/appear.min.js"></script>
+		<script src="<?php echo RUTA_PRINCIPAL . 'assets/principal'; ?>/js/appear.min.js"></script>
 		<!-- Odometer Min JS -->
-		<script src="assets/js/odometer.min.js"></script>
+		<script src="<?php echo RUTA_PRINCIPAL . 'assets/principal'; ?>/js/odometer.min.js"></script>
 		<!-- Datepicker Min JS -->
-		<script src="assets/js/bootstrap-datepicker.min.js"></script>
+		<script src="<?php echo RUTA_PRINCIPAL . 'assets/principal'; ?>/js/bootstrap-datepicker.min.js"></script>
 		<!-- Ofi Min JS -->
-		<script src="assets/js/ofi.min.js"></script>
+		<script src="<?php echo RUTA_PRINCIPAL . 'assets/principal'; ?>/js/ofi.min.js"></script>
 		<!-- jarallax Min JS -->
-		<script src="assets/js/jarallax.min.js"></script>
+		<script src="<?php echo RUTA_PRINCIPAL . 'assets/principal'; ?>/js/jarallax.min.js"></script>
 		<!-- Form Validator Min JS -->
-		<script src="assets/js/form-validator.min.js"></script>
+		<script src="<?php echo RUTA_PRINCIPAL . 'assets/principal'; ?>/js/form-validator.min.js"></script>
 		<!-- Contact JS -->
-		<script src="assets/js/contact-form-script.js"></script>
+		<script src="<?php echo RUTA_PRINCIPAL . 'assets/principal'; ?>/js/contact-form-script.js"></script>
 		<!-- Ajaxchimp Min JS -->
-		<script src="assets/js/ajaxchimp.min.js"></script>
+		<script src="<?php echo RUTA_PRINCIPAL . 'assets/principal'; ?>/js/ajaxchimp.min.js"></script>
         <!-- Custom JS -->
-		<script src="assets/js/custom.js"></script>
+		<script src="<?php echo RUTA_PRINCIPAL . 'assets/principal'; ?>/js/custom.js"></script>
     </body>
 </html>
