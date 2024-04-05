@@ -8,7 +8,7 @@
                 <div class="d-table-cell">
                     <div class="container">
                         <div class="eorik-slider-text overflow-hidden one eorik-slider-text-one">
-                            <h1>Relax Vacation</h1>
+                            <h1>Visitá Salta!</h1>
                             <span>Discover the place where you have fun & enjoy a lot</span>
                             <div class="slider-btn">
                                 <a class="default-btn" href="#">
@@ -26,7 +26,7 @@
                 <div class="d-table-cell">
                     <div class="container">
                         <div class="eorik-slider-text overflow-hidden two eorik-slider-text-one">
-                            <h1>Take Vacations</h1>
+                            <h1>Visitá Hotel Regidor</h1>
                             <span>Discover the place where you have fun & enjoy a lot</span>
                             <div class="slider-btn">
                                 <a class="default-btn" href="#">
@@ -44,7 +44,7 @@
                 <div class="d-table-cell">
                     <div class="container">
                         <div class="eorik-slider-text overflow-hidden three eorik-slider-text-one">
-                            <h1>Favorite Vacation</h1>
+                            <h1>Desconectá, relajá!</h1>
                             <span>Discover the place where you have fun & enjoy a lot</span>
                             <div class="slider-btn">
                                 <a class="default-btn" href="#">
