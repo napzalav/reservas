@@ -38,7 +38,7 @@
     <link rel="stylesheet" href="<?php echo RUTA_PRINCIPAL . 'assets/principal'; ?>/css/responsive.css">
 
     <!-- Favicon -->
-    <link rel="icon" type="image/png" href="<?php echo RUTA_PRINCIPAL . 'assets/principal'; ?>/img/favicon.png">
+    <link rel="icon" type="image/png" href="<?php echo RUTA_PRINCIPAL . 'assets'; ?>/img/favicon.png">
 
     <!-- TITLE -->
     <title><?php echo TITLE . ' | ' . $data['title']; ?></title>
@@ -59,16 +59,16 @@
         <div class="navbar-area">
             <!-- Menu For Mobile Device -->
             <div class="mobile-nav">
-                <a href="index.html" class="logo">
-                    <img src="<?php echo RUTA_PRINCIPAL . 'assets/principal'; ?>/img/mobile-manu-logo.png" alt="Logo">
+                <a href="<?php echo RUTA_PRINCIPAL; ?>" class="logo">
+                    <img src="<?php echo RUTA_PRINCIPAL . 'assets'; ?>/img/logo.png" width="70" alt="Logo">
                 </a>
             </div>
             <!-- Menu For Desktop Device -->
             <div class="main-nav">
                 <nav class="navbar navbar-expand-md navbar-light">
                     <div class="container">
-                        <a class="navbar-brand" href="index.html">
-                            <img src="<?php echo RUTA_PRINCIPAL . 'assets/principal'; ?>/img/home-one/logo.jpg" alt="Logo">
+                        <a class="navbar-brand" href="<?php echo RUTA_PRINCIPAL; ?>">
+                            <img src="<?php echo RUTA_PRINCIPAL . 'assets'; ?>/img/logo.png" width="100" alt="Logo">
                         </a>
                         <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
                             <ul class="navbar-nav m-auto">
@@ -79,7 +79,7 @@
                                     </a>
                                     <ul class="dropdown-menu">
                                         <li class="nav-item">
-                                            <a href="index.html" class="nav-link active">Home One</a>
+                                            <a href="<?php echo RUTA_PRINCIPAL; ?>" class="nav-link active">Home One</a>
                                         </li>
                                         <li class="nav-item">
                                             <a href="index-2.html" class="nav-link">Home Two</a>
@@ -305,8 +305,8 @@
                             </span>
                         </button>
                         <h2 class="modal-title" id="myModalLabel2">
-                            <a href="index.html">
-                                <img src="<?php echo RUTA_PRINCIPAL . 'assets/principal'; ?>/img/home-one/logo.jpg" alt="Logo">
+                            <a href="<?php echo RUTA_PRINCIPAL; ?>">
+                                <img src="<?php echo RUTA_PRINCIPAL . 'assets'; ?>/img/logo.png" alt="Logo">
                             </a>
                         </h2>
                     </div>
