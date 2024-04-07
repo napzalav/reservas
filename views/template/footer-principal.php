@@ -97,7 +97,7 @@
                             <li>
                                 <a href="#">
                                     <i class="right-icon bx bx-chevrons-right"></i>
-                                    Contact
+                                    Contacto
                                 </a>
                             </li>
                         </ul>
