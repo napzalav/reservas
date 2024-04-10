@@ -178,12 +178,12 @@
             <div class="row align-items-center">
                 <div class="col-lg-6">
                     <div class="copy-right">
-                        <p>Copyright @2022 <a href="<?php echo RUTA_PRINCIPAL; ?>">Ecorik</a>. All Rights Reserved</p>
+                        <p>Copyright @2024 <a href="<?php echo RUTA_PRINCIPAL; ?>">Napz</a>. All Rights Reserved</p>
                     </div>
                 </div>
                 <div class="col-lg-6">
                     <div class="designed">
-                        <p>Designed By <i class='bx bx-heart'></i> <a href="https://envytheme.com/" target="_blank">EnvyTheme</a></p>
+                        <p>Hecho con <i class='bx bx-heart'></i> <a href="https://envytheme.com/" target="_blank">Cesar</a></p>
                     </div>
                 </div>
             </div>
