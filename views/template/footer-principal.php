@@ -153,13 +153,13 @@
                             <li class="address">
                                 <i class="flaticon-maps-and-flags"></i>
                                 <span>Address</span>
-                                205 Fida Walinton, Tongo Street Front The USA
+                                Buenos Aires 8
                             </li>
                             <li class="address">
                                 <i class="flaticon-call"></i>
                                 <span>Phone</span>
                                 <a href="tel:+882-569-756">
-                                    +882-569-756
+                                    +54 9 (0387)4 311 305
                                 </a>
                             </li>
                             <li class="address">
