@@ -73,7 +73,7 @@
                         <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
                             <ul class="navbar-nav m-auto">
                                 <li class="nav-item">
-                                    <a href="#" class="nav-link active">
+                                    <a href="<?php echo RUTA_PRINCIPAL . 'habitacion'; ?>" class="nav-link active">
                                         Habitaciones
                                     </a>
                                 </li>

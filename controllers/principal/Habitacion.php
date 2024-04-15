@@ -5,7 +5,7 @@ class Habitacion extends Controller{
     }
     public function index() {
         $data['title'] = 'Habitaciones';
-        $this->views->getView('index', $data);
+        $this->views->getView('principal/habitacion/index', $data);
     }
 }
 
