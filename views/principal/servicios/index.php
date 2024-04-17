@@ -4,7 +4,7 @@
 <div class="page-title-area">
     <div class="container">
         <div class="page-title-content">
-            <h2>Habitaciones</h2>
+            <h2>Servicios</h2>
             <ul>
                 <li>
                     <a href="index.html">
