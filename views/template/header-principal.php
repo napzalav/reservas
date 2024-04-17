@@ -102,7 +102,7 @@
 
                                 <a href="tel:+54 9 <?= $codigo_area ?><?= $telefono ?>" class="call-us">
                                     <i class="bx bx-phone-call bx-tada"></i>
-                                    Llámanos</a>
+                                    Hablá con nosotros</a>
 
                             </div>
                             <!-- End Other Option -->
