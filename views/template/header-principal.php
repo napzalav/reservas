@@ -78,17 +78,17 @@
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="#" class="nav-link">
+                                    <a href="<?php echo RUTA_PRINCIPAL . 'servicio'; ?>" class="nav-link">
                                         Servicios
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="#" class="nav-link">
+                                    <a href="<?php echo RUTA_PRINCIPAL . 'blog'; ?>" class="nav-link">
                                         Blog
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="#" class="nav-link">
+                                    <a href="<?php echo RUTA_PRINCIPAL . 'contacto'; ?>" class="nav-link">
                                         Contáctanos
                                     </a>
                                 </li>
