@@ -1,1 +1,1 @@
-# Proyecto de Gestion hotelera
+# Proyecto de Gestión hotelera
