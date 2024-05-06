@@ -89,7 +89,7 @@
                                 </li>
                                 <li class="nav-item">
                                     <a href="<?php echo RUTA_PRINCIPAL . 'contacto'; ?>" class="nav-link">
-                                        Contáctanos
+                                        Contacto
                                     </a>
                                 </li>
                             </ul>
