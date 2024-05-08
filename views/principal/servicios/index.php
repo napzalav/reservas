@@ -11,8 +11,8 @@
                         Home
                     </a>
                 </li>
-                <li>Room</li>
-                <li>Room Style Two</li>
+                <li>Atención personalizada</li>
+                <li>Desayuno incluido</li>
             </ul>
         </div>
     </div>
