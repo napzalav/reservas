@@ -5,6 +5,7 @@ class Servicio extends Controller{
     }
     public function index() {
         $data['title'] = 'Servicios';
+        $data['subtitle'] = 'Atención personalizada';
         $this->views->getView('principal/servicios/index', $data);
     }
 }

@@ -1,23 +1,5 @@
-<?php include_once 'views/template/header-principal.php'; ?>
-
-<!-- Start Page Title Area -->
-<div class="page-title-area">
-    <div class="container">
-        <div class="page-title-content">
-            <h2>Servicios</h2>
-            <ul>
-                <li>
-                    <a href="index.html">
-                        Home
-                    </a>
-                </li>
-                <li>Atención personalizada</li>
-                <li>Desayuno incluido</li>
-            </ul>
-        </div>
-    </div>
-</div>
-<!-- End Page Title Area -->
+<?php include_once 'views/template/header-principal.php';
+include_once 'views/template/portada.php'; ?>
 
 <!-- Start Exclusive Offers Area -->
 <section class="exclusive-offers-area-four pt-100 pb-70">
