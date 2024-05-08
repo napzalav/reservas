@@ -11,8 +11,8 @@
                         Home
                     </a>
                 </li>
-                <li>Room</li>
-                <li>Room Style Two</li>
+                <li>Dormitorios</li>
+                <li>Estilo colonial</li>
             </ul>
         </div>
     </div>
