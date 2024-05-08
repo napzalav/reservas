@@ -1,23 +1,5 @@
-<?php include_once 'views/template/header-principal.php'; ?>
-
-<!-- Start Page Title Area -->
-<div class="page-title-area">
-    <div class="container">
-        <div class="page-title-content">
-            <h2>Contáctanos</h2>
-            <ul>
-                <li>
-                    <a href="index.html">
-                        Home
-                    </a>
-                </li>
-                <li>Consultas</li>
-                <li>Reservas</li>
-            </ul>
-        </div>
-    </div>
-</div>
-<!-- End Page Title Area -->
+<?php include_once 'views/template/header-principal.php';
+include_once 'views/template/portada.php'; ?>
 
 <!-- Start Contact Area -->
 <section class="main-contact-area contact-info-area contact-info-three pt-100 pb-70">
