@@ -4,15 +4,15 @@
 <div class="page-title-area">
     <div class="container">
         <div class="page-title-content">
-            <h2>Contactos</h2>
+            <h2>Contáctanos</h2>
             <ul>
                 <li>
                     <a href="index.html">
                         Home
                     </a>
                 </li>
-                <li>Room</li>
-                <li>Room Style Two</li>
+                <li>Consultas</li>
+                <li>Reservas</li>
             </ul>
         </div>
     </div>
