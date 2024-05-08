@@ -1,23 +1,5 @@
-<?php include_once 'views/template/header-principal.php'; ?>
-
-<!-- Start Page Title Area -->
-<div class="page-title-area">
-    <div class="container">
-        <div class="page-title-content">
-            <h2>Habitaciones</h2>
-            <ul>
-                <li>
-                    <a href="index.html">
-                        Home
-                    </a>
-                </li>
-                <li>Dormitorios</li>
-                <li>Estilo colonial</li>
-            </ul>
-        </div>
-    </div>
-</div>
-<!-- End Page Title Area -->
+<?php include_once 'views/template/header-principal.php';
+include_once 'views/template/portada.php'; ?>
 
 <section class="our-rooms-area-two our-rooms-area-four ptb-100">
     <div class="container">
