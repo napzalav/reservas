@@ -1,23 +1,5 @@
-<?php include_once 'views/template/header-principal.php'; ?>
-
-<!-- Start Page Title Area -->
-<div class="page-title-area">
-    <div class="container">
-        <div class="page-title-content">
-            <h2>Blog</h2>
-            <ul>
-                <li>
-                    <a href="index.html">
-                        Home
-                    </a>
-                </li>
-                <li>Noticias</li>
-                <li>Nuevos articulos</li>
-            </ul>
-        </div>
-    </div>
-</div>
-<!-- End Page Title Area -->
+<?php include_once 'views/template/header-principal.php';
+include_once 'views/template/portada.php'; ?>
 
 <!-- End News Area -->
 <section class="news-area ptb-100">
