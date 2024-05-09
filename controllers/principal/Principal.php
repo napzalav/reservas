@@ -7,6 +7,11 @@ class Principal extends Controller{
     }
     public function index() {
         $data['title'] = 'Página principal';
+        //TRAER SLIDERS
+        $data['sliders'] = $this->model->getSliders();
+        //Comprobamos que nos muestre el array desde la base de datos
+        // print_r($data);
+        // exit;
         $this->views->getView('index', $data);
     }
 }
