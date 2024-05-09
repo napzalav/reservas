@@ -3,16 +3,18 @@
 <!-- Start Ecorik Slider Area -->
 <section class="eorik-slider-area">
     <div class="eorik-slider owl-carousel owl-theme">
-        <div class="eorik-slider-item slider-item-bg-1">
+        <?php foreach ($data['sliders'] as $slider) { ?>
+        <!-- <div class="eorik-slider-item slider-item-bg-1"> -->
+        <div class="eorik-slider-item" style="background-image: url(<?php echo RUTA_PRINCIPAL . 'assets/img/sliders/' . $slider['foto'] ?>);">
             <div class="d-table">
                 <div class="d-table-cell">
                     <div class="container">
                         <div class="eorik-slider-text overflow-hidden one eorik-slider-text-one">
-                            <h1>Visitá Salta!</h1>
-                            <span>Discover the place where you have fun & enjoy a lot</span>
+                            <h1><?php echo $slider['titulo']; ?></h1>
+                            <span><?php echo $slider['subtitulo']; ?></span>
                             <div class="slider-btn">
-                                <a class="default-btn" href="#">
-                                    Book To Stay
+                                <a class="default-btn" href="<?php echo $slider['url']; ?>">
+                                    Más Información
                                     <i class="flaticon-right"></i>
                                 </a>
                             </div>
@@ -21,7 +23,8 @@
                 </div>
             </div>
         </div>
-        <div class="eorik-slider-item slider-item-bg-2">
+        <?php } ?>
+        <!-- <div class="eorik-slider-item slider-item-bg-2">
             <div class="d-table">
                 <div class="d-table-cell">
                     <div class="container">
@@ -56,7 +59,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
     </div>
     <div class="white-shape">
         <img src="<?php echo RUTA_PRINCIPAL . 'assets/principal'; ?>/img/home-one/slider/white-shape.png" alt="Image">
