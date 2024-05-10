@@ -3,6 +3,8 @@
 <!-- Start Ecorik Slider Area -->
 <section class="eorik-slider-area">
     <div class="eorik-slider owl-carousel owl-theme">
+
+    <!-- Sliders llamados dinamicamente -->
         <?php foreach ($data['sliders'] as $slider) { ?>
         <!-- <div class="eorik-slider-item slider-item-bg-1"> -->
         <div class="eorik-slider-item" style="background-image: url(<?php echo RUTA_PRINCIPAL . 'assets/img/sliders/' . $slider['foto'] ?>);">
@@ -24,6 +26,8 @@
             </div>
         </div>
         <?php } ?>
+        <!-- Fin sliders -->
+
         <!-- <div class="eorik-slider-item slider-item-bg-2">
             <div class="d-table">
                 <div class="d-table-cell">
@@ -64,7 +68,8 @@
     <div class="white-shape">
         <img src="<?php echo RUTA_PRINCIPAL . 'assets/principal'; ?>/img/home-one/slider/white-shape.png" alt="Image">
     </div>
-    <div class="social-link">
+    <!-- SECCION REDES SOCIALES -->
+    <!-- <div class="social-link">
         <ul>
             <li>
                 <a href="#">
@@ -82,7 +87,7 @@
                 </a>
             </li>
         </ul>
-    </div>
+    </div> -->
 </section>
 <!-- End Ecorik Slider Area -->
 
