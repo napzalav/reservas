@@ -237,5 +237,7 @@
 <script src="<?php echo RUTA_PRINCIPAL . 'assets/principal'; ?>/js/ajaxchimp.min.js"></script>
 <!-- Fullcalendar -->
 <script src="<?php echo RUTA_PRINCIPAL . 'assets/principal'; ?>/fullcalendar/index.global.min.js"></script>
+<!-- Traduccion Español -->
+<script src="<?php echo RUTA_PRINCIPAL . 'assets/principal'; ?>/fullcalendar/es.global.min.js"></script>
 <!-- Custom JS -->
 <script src="<?php echo RUTA_PRINCIPAL . 'assets/principal'; ?>/js/custom.js"></script>
