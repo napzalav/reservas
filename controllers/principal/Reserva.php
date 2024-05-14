@@ -4,8 +4,8 @@ class Reserva extends Controller{
         parent::__construct();
     }
     public function verify() {
-        $data['title'] = 'Verificar Disponibilidad';
-        $data['subtitle'] = 'Publicaciones';
+        $data['title'] = 'Reservas';
+        $data['subtitle'] = 'Verificar Disponibilidad';
         $this->views->getView('principal/reservas', $data);
     }
 }

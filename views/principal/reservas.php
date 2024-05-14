@@ -1,6 +1,5 @@
 <?php include_once 'views/template/header-principal.php'; ?>
 
-
 <div id='calendar'></div>
 
 
