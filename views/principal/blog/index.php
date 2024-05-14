@@ -249,3 +249,7 @@ include_once 'views/template/portada.php'; ?>
 <!-- End News Area -->
 
 <?php include_once 'views/template/footer-principal.php'; ?>
+
+</body>
+
+</html>
