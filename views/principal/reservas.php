@@ -1,4 +1,5 @@
-<?php include_once 'views/template/header-principal.php'; ?>
+<?php include_once 'views/template/header-principal.php';
+include_once 'views/template/portada.php'; ?>
 
 <div id='calendar'></div>
 
