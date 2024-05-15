@@ -322,3 +322,7 @@ include_once 'views/template/portada.php'; ?>
 
 
 <?php include_once 'views/template/footer-principal.php'; ?>
+
+</body>
+
+</html>
