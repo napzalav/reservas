@@ -129,7 +129,7 @@
                     <div class="check-content">
                         <div class="form-group">
                             <label for="habitacion" class="form-label">Habitaciones</label>
-                            <select name="habitacion" id="habitacion" style="width: 100%;">
+                            <select name="habitacion" class="select-auto" id="habitacion" style="width: 100%;">
                                 <option value="">Seleccionar</option>
                                 <?php foreach ($data['habitaciones'] as $habitacion) { ?>
                                     <option value="<?php echo $habitacion['id']; ?>"><?php echo $habitacion['estilo']; ?></option>
@@ -896,6 +896,7 @@
 
 <?php include_once 'views/template/footer-principal.php'; ?>
 
+<script src="<?php echo RUTA_PRINCIPAL . 'assets/principal/js/pages/index.js' ?>"></script>
 
 </body>
 
