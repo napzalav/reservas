@@ -12,6 +12,10 @@ class Principal extends Controller{
         //Comprobamos que nos muestre el array desde la base de datos
         // print_r($data);
         // exit;
+
+        //TRAER HABITACIONES
+        $data['habitaciones'] = $this->model->getHabitaciones();
+
         $this->views->getView('index', $data);
     }
 }
