@@ -7,6 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
             center: "title",
             right: "dayGridMonth,timeGridWeek,timeGridDay,listMonth",
         },
+        locale: 'es',
         initialDate: "2023-01-12",
         navLinks: true, // can click day/week names to navigate views
         businessHours: true, // display business hours
