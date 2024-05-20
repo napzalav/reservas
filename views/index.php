@@ -142,7 +142,7 @@
                 <div class="col-lg-3">
                     <div class="check-btn check-content mb-0">
                         <button class="default-btn">
-                            Check Availability
+                            Consultar
                             <i class="flaticon-right"></i>
                         </button>
                     </div>
