@@ -98,7 +98,7 @@
             <div class="row align-items-center">
                 <div class="col-lg-3 col-sm-6">
                     <div class="check-content">
-                        <p>Arrival Date</p>
+                        <p>Fecha de llegada</p>
                         <div class="form-group">
                             <div class="input-group date" id="datetimepicker-1">
                                 <i class="flaticon-calendar"></i>
@@ -113,7 +113,7 @@
 
                 <div class="col-lg-3 col-sm-6">
                     <div class="check-content">
-                        <p>Departure Date</p>
+                        <p>Fecha de salida</p>
                         <div class="form-group">
                             <div class="input-group date" id="datetimepicker-2">
                                 <i class="flaticon-calendar"></i>
