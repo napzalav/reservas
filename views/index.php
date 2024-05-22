@@ -28,42 +28,6 @@
         <?php } ?>
         <!-- Fin sliders -->
 
-        <!-- <div class="eorik-slider-item slider-item-bg-2">
-            <div class="d-table">
-                <div class="d-table-cell">
-                    <div class="container">
-                        <div class="eorik-slider-text overflow-hidden two eorik-slider-text-one">
-                            <h1>Visitá Hotel Regidor</h1>
-                            <span>Discover the place where you have fun & enjoy a lot</span>
-                            <div class="slider-btn">
-                                <a class="default-btn" href="#">
-                                    Book To Stay
-                                    <i class="flaticon-right"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="eorik-slider-item slider-item-bg-3">
-            <div class="d-table">
-                <div class="d-table-cell">
-                    <div class="container">
-                        <div class="eorik-slider-text overflow-hidden three eorik-slider-text-one">
-                            <h1>Desconectá, relajá!</h1>
-                            <span>Discover the place where you have fun & enjoy a lot</span>
-                            <div class="slider-btn">
-                                <a class="default-btn" href="#">
-                                    Book To Stay
-                                    <i class="flaticon-right"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div> -->
     </div>
     <div class="white-shape">
         <img src="<?php echo RUTA_PRINCIPAL . 'assets/principal'; ?>/img/home-one/slider/white-shape.png" alt="Image">
