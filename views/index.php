@@ -169,9 +169,9 @@
             <div class="col-lg-6">
                 <div class="explore-content ml-30">
                     <h2>As much as comfort want to get from us everything</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt eveniet reprehenderit ratione ad perspiciatis repudiandae iste ipsam temporibus sit quo! Incidunt, necessitatibus fugiat ut dignissimos pariatur odit natus ipsum! Obcaecati iste ipsam temporibus sit quo! Incidunt, necessitatibus Obcaecati iste ipsam temporibus Lorem ipsum dolor sit amet consectetur.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat earum autem totam rem quo at ad tenetur voluptatem in. Quasi reprehenderit veniam incidunt repellat soluta neque ea earum porro quisquam.</p>
 
-                    <p>Konin wansis dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut nim ad minim veniam, quis nostrud exercitation. dolor sit amet, consectetur adipisicing quis nostrud exercitation Lorem ipsum dolor sit amet consectetur.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio animi delectus, sint autem magni nisi in necessitatibus at recusandae atque voluptatum exercitationem ut. Consequuntur officiis amet, assumenda obcaecati nisi nostrum, blanditiis qui aut deleniti cupiditate ducimus fugit repellat tempore cum atque voluptatum itaque cumque dicta dolorem aliquid? Unde molestias dolorem iste minus modi! Aut aperiam temporibus sed porro reprehenderit ea dignissimos, adipisci iste nemo pariatur voluptas! Labore eius adipisci assumenda dolor reprehenderit accusamus ullam alias modi voluptas nostrum laborum deserunt odit, architecto qui nisi culpa repudiandae nulla iure. Expedita omnis quae vel quis ea et voluptatum porro eaque voluptates eum!</p>
                     <a href="about.html" class="default-btn">
                         explore More
                         <i class="flaticon-right"></i>
