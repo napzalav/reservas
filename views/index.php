@@ -16,7 +16,7 @@
                                 <span><?php echo $slider['subtitulo']; ?></span>
                                 <div class="slider-btn">
                                     <a class="default-btn" href="<?php echo $slider['url']; ?>">
-                                        Más Info
+                                        Más Información
                                         <i class="flaticon-right"></i>
                                     </a>
                                 </div>
